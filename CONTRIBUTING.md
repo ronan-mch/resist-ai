@@ -9,6 +9,6 @@ Thanks for your interest in Resist AI! If you have any ideas for improvement, pl
 - **Design**: I am obviously not very good at web design, so if you have some skills in that area, please do share them.
 - **Automation**: I'm planning some basic automation around Markdown linting, conversion to HTML and publishing to the web. If you have any suggestions, please share.
 
-## Being nice
+## Be nice
 
 Please be respectful in your interactions here. 
