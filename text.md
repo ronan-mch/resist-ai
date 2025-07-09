@@ -2,11 +2,16 @@
 
 This website is a citizen's guide to opposing generative AI's harmful effects on our society.
 
+- [Why?](#why)
+- [How?](#how)
+
 > When we talk about generative AI, we mean LLM based text creation models like ChatGPT and Claude, image creation models like DALL-E, Stable Diffusion, etc and video generators like Runway. We are not talking about traditional ML techniques like logistic regression, decision trees, etc.
 
+<a name="why">
 ## Why resist AI?
+</a>
 
-Generative AI is a fantastic technology with some valuable use cases, but it is being pushed aggressively by tech companies with no regard for its harmful effects on society. Through boycotting, suing and sabotaging generative AI, we can slow its attack on our society and inspire a more thoughtful conversation about how to use these technologies to benefit rather than harm humanity.
+Generative AI is an important technology with some valuable use cases, but it is being pushed aggressively by tech companies with no regard for its harmful effects on society. Through boycotting, suing and sabotaging generative AI, we can slow its attack on our society and inspire a more thoughtful conversation about how to use these technologies to benefit rather than harm humanity.
 
 ### Energy use
 
@@ -18,10 +23,11 @@ Generative AI requires a huge amount of electricity to train and run models. At 
 
 ### Disinformation, deep fakes
 
-We all rely on the online information commons, but AI is destroying it:
+Disinformation is nothing new, but AI turbocharges it:
 
 - AI generated deep fake videos are used for [harassment](https://www.esafety.gov.au/newsroom/blogs/deepfake-damage-in-schools-how-ai-generated-abuse-is-disrupting-students-families-and-school-communities), or [political manipulation](https://www.npr.org/2024/12/21/nx-s1-5220301/deepfakes-memes-artificial-intelligence-elections).
 - AI generated images [flood social media](https://theconversation.com/what-is-ai-slop-why-you-are-seeing-more-fake-photos-and-videos-in-your-social-media-feeds-255538), drowning out human voices.
+- AI is being used to [generate bogus research articles](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003152#sec008) hampering the scientific process.
 
 ### Harming workers
 
@@ -30,7 +36,9 @@ AI systems rely on hidden human labour for content moderation and annotation. Co
 - [The human cost of our AI driven future](https://www.noemamag.com/the-human-cost-of-our-ai-driven-future/)
 - [Who trains the data for European artificial intelligence?](https://hal.science/hal-04662589/document)
 
+<a name="how">
 ## How to resist AI?
+</a>
 
 ### For citizens
 
