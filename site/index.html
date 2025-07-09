@@ -1,0 +1,125 @@
+
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+>
+<link
+  rel="stylesheet"
+  href="https://mshaugh.github.io/nerdfont-webfonts/build/ibmplexmono.css"
+>
+  <style>
+    h1, h2, h3, h4 {
+        font-family: "BlexMono Nerd Font Bold", sans-serif;
+        font-weight: 300;
+    }
+    body {
+        font-family: "BlexMono Nerd Font", sans-serif;
+        font-weight: 300;
+    }
+</style>
+  <title>Resist AI!</title>
+
+<body>
+  <header class="container">
+  <h1><code>./resist-ai.sh</code></h1>
+  </header>
+  <main class="container">
+<h1>Resist AI - a handbook for concerned citizens</h1>
+
+<p>This website is a citizen's guide to opposing generative AI's harmful effects on our society.</p>
+
+<blockquote>
+  <p>When we talk about generative AI, we mean LLM based text creation models like ChatGPT and Claude, image creation models like DALL-E, Stable Diffusion, etc and video generators like Runway. We are not talking about traditional ML techniques like logistic regression, decision trees, etc.</p>
+</blockquote>
+
+<h2>Why resist AI?</h2>
+
+<p>Generative AI is a fantastic technology with some valuable use cases, but it is being pushed aggressively by tech companies with no regard for its harmful effects on society. Through boycotting, suing and sabotaging generative AI, we can slow its attack on our society and inspire a more thoughtful conversation about how to use these technologies to benefit rather than harm humanity.</p>
+
+<h3>Energy use</h3>
+
+<p>Generative AI requires a huge amount of electricity to train and run models. At a time when the world is facing a massive environmental crisis due to carbon emissions, it is beyond stupid to be powering up more data centres with climate heating electricity generation. But that is exactly what is happening. Unfortunately, this is only expected to get worse as tech companies rush to push AI into every corner of our lives.</p>
+
+<ul>
+<li><a href="https://www.theguardian.com/us-news/2025/jul/03/elon-musk-xai-pollution-memphis">Elon Musk’s xAI gets permit for methane gas generators</a></li>
+<li><a href="https://www.datacenterdynamics.com/en/news/ohio-regulators-approve-construction-of-200mw-gas-power-plant-to-serve-meta-data-center-in-new-albany-ohio/">Meta sponsoring construction of new gas generation in Ohio</a></li>
+<li><a href="https://www.energy.gov/articles/doe-releases-new-report-evaluating-increase-electricity-demand-data-centers">DOE Releases New Report Evaluating Increase in Electricity Demand from Data Centers</a></li>
+</ul>
+
+<h3>Disinformation, deep fakes</h3>
+
+<p>We all rely on the online information commons, but AI is destroying it:</p>
+
+<ul>
+<li>AI generated deep fake videos are used for <a href="https://www.esafety.gov.au/newsroom/blogs/deepfake-damage-in-schools-how-ai-generated-abuse-is-disrupting-students-families-and-school-communities">harassment</a>, or <a href="https://www.npr.org/2024/12/21/nx-s1-5220301/deepfakes-memes-artificial-intelligence-elections">political manipulation</a>.</li>
+<li>AI generated images <a href="https://theconversation.com/what-is-ai-slop-why-you-are-seeing-more-fake-photos-and-videos-in-your-social-media-feeds-255538">flood social media</a>, drowning out human voices.</li>
+</ul>
+
+<h3>Harming workers</h3>
+
+<p>AI systems rely on hidden human labour for content moderation and annotation. Content moderation in particular exacts a large toll on its workers, often leaving them traumatised and without access to sufficient psychological support.</p>
+
+<ul>
+<li><a href="https://www.noemamag.com/the-human-cost-of-our-ai-driven-future/">The human cost of our AI driven future</a></li>
+<li><a href="https://hal.science/hal-04662589/document">Who trains the data for European artificial intelligence?</a></li>
+</ul>
+
+<h2>How to resist AI?</h2>
+
+<h3>For citizens</h3>
+
+<ul>
+<li>Digital rights organisation noyb has launched numerous lawsuits against <a href="https://noyb.eu/en/project/artificial-intelligence">AI providers</a>. You can sign up to support their work.</li>
+</ul>
+
+<h3>For social media users</h3>
+
+<ul>
+<li>Don't boost AI generated content through liking it, sharing it or commenting on it</li>
+<li><p>Do not allow social media companies to use your content to train their models. This guide shows <a href="https://www.techtarget.com/whatis/feature/How-to-opt-out-of-AI-training-across-social-media-platforms">how to opt out</a> across multiple different platforms.</p></li>
+<li><p>If you can, move away from platforms that push GenAI on their users:</p>
+
+<ul>
+<li>WhatsApp can be replaced with <a href="https://signal.org/">Signal</a> a more ethical and privacy aware alternative.</li>
+<li>Twitter can be replaced with <a href="https://bsky.app/">BlueSky</a> or <a href="https://mastodon.social/">Mastodon</a>.</li>
+</ul></li>
+</ul>
+
+<h3>For online writers</h3>
+
+<p>If you write online, AI companies will harvest your writing to build their models. How to resist will depend on what platform you use to publish:</p>
+
+<ul>
+<li><a href="https://support.substack.com/hc/en-us/articles/20382615953556-How-can-I-block-AI-from-using-my-Substack-publication-to-train-their-models">Substack</a></li>
+<li><a href="https://wordpress.com/blog/2024/02/27/more-control-over-the-content-you-share/">Wordpress</a></li>
+</ul>
+
+<h3>For visual artists</h3>
+
+<p>If you're a visual artist who publishes online, you can "poison" your images so that they break the AI models that they are used to train.
+The <a href="https://nightshade.cs.uchicago.edu/whatis.html">Nightshade</a> tool will alter your image in a way that is invisible to you, but will damage any model that uses it.</p>
+
+<h3>For website owners</h3>
+
+<p>If you own a website, you can sabotage or block AI crawlers by using CDN (Content Delivery Network) level bot protection:</p>
+
+<ul>
+<li>Cloudflare allows all users to <a href="https://blog.cloudflare.com/ai-labyrinth/">trap AI crawlers</a> in an AI generated hall of mirrors.</li>
+<li>Akamai provides a product to <a href="https://www.akamai.com/products/bot-manager#accordion-7d993699c3-item-2658329830">manage bots</a>, including AI bots.</li>
+<li><a href="https://support.squarespace.com/hc/en-us/articles/360022347072-Request-that-AI-models-exclude-your-site">Squarespace</a> provide a guide for requesting bots to exclude your website.</li>
+</ul>
+
+<p>More technically confident users can setup self-hosted solutions such as:</p>
+
+<ul>
+<li><a href="https://anubis.techaro.lol/">Anubis</a> - a tool for blocking bots</li>
+<li><a href="https://zadzmo.org/code/nepenthes/">Nepenthes</a> - a tool for trapping and poisoning bots</li>
+</ul>
+  <!-- TEXT -->
+  </main>
+  <footer class="container">
+    Like this? <a href="https://github.com/ronan-mch/resist-ai">
+      Contribute on GitHub!
+    </a>
+  </footer>
+</body>

@@ -8,5 +8,5 @@ awk '/<main class="container">/ {
   next
 }
 { print }
-' template.html >index.html
+' template.html >site/index.html
 rm tmp.html
