@@ -10,6 +10,6 @@ This is the repo for the  `https://resist-ai.sh` website.
 
 ## Building
 
-- Run `./build.sh` (needs [Markdown](https://formulae.brew.sh/formula/markdown) CLI tool)
-- `index.html` contains the generated HTML.
-
+- Run `make` (needs [Markdown](https://formulae.brew.sh/formula/markdown) CLI tool)
+- `site/index.html` contains the generated HTML.
+- On push to master, `site/index.html` is picked up by Cloudflare and written to a Cloudflare Page.
