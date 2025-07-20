@@ -5,7 +5,7 @@ This website is a citizen's guide to opposing generative AI's harmful effects on
 - [Why?](#why)
 - [How?](#how)
 
-> When we talk about generative AI, we mean LLM based text creation models like ChatGPT and Claude, image creation models like DALL-E, Stable Diffusion, etc and video generators like Runway. We are not talking about traditional ML techniques like logistic regression, decision trees, etc.
+> When we talk about generative AI, we mean LLM based text creation models like ChatGPT and Claude, image creation models like DALL-E, Stable Diffusion, etc and video generators like Runway.
 
 <a name="why">
 ## Why resist AI?
@@ -15,7 +15,7 @@ Generative AI is an important technology with some valuable use cases, but it is
 
 ### Energy use
 
-Generative AI requires a huge amount of electricity to train and run models. At a time when the world is facing a massive environmental crisis due to carbon emissions, it is beyond stupid to be powering up more data centres with climate heating electricity generation. But that is exactly what is happening. Unfortunately, this is only expected to get worse as tech companies rush to push AI into every corner of our lives.
+Generative AI requires a huge amount of electricity to train and run models. At a time when the world is facing a massive environmental crisis due to carbon emissions, it is beyond stupid to build more fossil fuel powered data centres. But that is exactly what is happening. Unfortunately, this is only expected to get worse as tech companies rush to push AI into every corner of our lives.
 
 - [Elon Musk’s xAI gets permit for methane gas generators](https://www.theguardian.com/us-news/2025/jul/03/elon-musk-xai-pollution-memphis)
 - [Meta sponsoring construction of new gas generation in Ohio](https://www.datacenterdynamics.com/en/news/ohio-regulators-approve-construction-of-200mw-gas-power-plant-to-serve-meta-data-center-in-new-albany-ohio/)
@@ -26,13 +26,15 @@ Generative AI requires a huge amount of electricity to train and run models. At 
 Disinformation is nothing new, but AI turbocharges it:
 
 - AI generated deep fake videos are used for [harassment](https://www.esafety.gov.au/newsroom/blogs/deepfake-damage-in-schools-how-ai-generated-abuse-is-disrupting-students-families-and-school-communities), or [political manipulation](https://www.npr.org/2024/12/21/nx-s1-5220301/deepfakes-memes-artificial-intelligence-elections).
-- AI generated images [flood social media](https://theconversation.com/what-is-ai-slop-why-you-are-seeing-more-fake-photos-and-videos-in-your-social-media-feeds-255538), drowning out human voices.
+- AI generated images [flood social media](https://theconversation.com/what-is-ai-slop-why-you-are-seeing-more-fake-photos-and-videos-in-your-social-media-feeds-255538), drowning out human connections.
 - AI is being used to [generate bogus research articles](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003152#sec008) hampering the scientific process.
+<!-- - AI hallucinations more generally - causing harm etc, look for a source -->
 
 ### Harming workers
 
 AI systems rely on hidden human labour for content moderation and annotation. Content moderation in particular exacts a large toll on its workers, often leaving them traumatised and without access to sufficient psychological support.
 
+- [OpenAI Used Kenyan Workers on Less Than $2 Per Hour to Make ChatGPT Less Toxic](https://time.com/6247678/openai-chatgpt-kenya-workers/)
 - [The human cost of our AI driven future](https://www.noemamag.com/the-human-cost-of-our-ai-driven-future/)
 - [Who trains the data for European artificial intelligence?](https://hal.science/hal-04662589/document)
 
@@ -40,13 +42,15 @@ AI systems rely on hidden human labour for content moderation and annotation. Co
 ## How to resist AI?
 </a>
 
-### For citizens
+### For everyone
 
-- Digital rights organisation noyb has launched numerous lawsuits against [AI providers](https://noyb.eu/en/project/artificial-intelligence). You can sign up to support their work.
+- Don't believe the hype! AI companies routinely exaggerate the capabilities of their models in order to attract investment and drive growth. LLMs are good at writing text, but that is [not a replacement for human intelligence](https://www.theguardian.com/commentisfree/2025/jun/10/billion-dollar-ai-puzzle-break-down). Moreover, outlandish predictions of future benefits from AI are designed to [mask the real harm](https://www.fastcompany.com/91339834/ai-hype-dark-facts) that AI systems are causing now.
+- Oppose data center construction: GenAI companies are building gigantic data centers across the world to power their systems. These consume massive amounts of electricity and water and provide little benefit to the communities affected. In countries such as [Chile](https://www.disconnect.blog/p/how-to-stop-a-data-center) and the [USA](https://www.datacenterwatch.org/report), activists have succeeded in blocking these developments through public information and protest. Support campaigns against data centers in your area.
+- Digital rights organisation noyb has launched numerous lawsuits against [AI providers](https://noyb.eu/en/project/artificial-intelligence). You can become a member to support their work.
 
 ### For social media users
 
-- Don't boost AI generated content through liking it, sharing it or commenting on it
+- Don't boost AI generated content through liking it, sharing it or commenting on it **need guidance on how to recognise AI content**
 - Do not allow social media companies to use your content to train their models. This guide shows [how to opt out](https://www.techtarget.com/whatis/feature/How-to-opt-out-of-AI-training-across-social-media-platforms) across multiple different platforms.
 
 - If you can, move away from platforms that push GenAI on their users:
@@ -63,7 +67,7 @@ If you write online, AI companies will harvest your writing to build their model
 ### For visual artists
 
 If you're a visual artist who publishes online, you can "poison" your images so that they break the AI models that they are used to train.
-The [Nightshade](https://nightshade.cs.uchicago.edu/whatis.html) tool will alter your image in a way that is invisible to you, but will damage any model that uses it.
+The [Nightshade](https://nightshade.cs.uchicago.edu/whatis.html) tool will alter your image in a way that is invisible to humans, but will damage any model that uses it.
 
 ### For website owners
 
@@ -77,3 +81,7 @@ More technically confident users can setup self-hosted solutions such as:
 
 - [Anubis](https://anubis.techaro.lol/) - a tool for blocking bots
 - [Nepenthes](https://zadzmo.org/code/nepenthes/) - a tool for trapping and poisoning bots
+
+### For educators
+
+- Read the [open letter](https://openletter.earth/an-open-letter-from-educators-who-refuse-the-call-to-adopt-genai-in-education-cb4aee75) from educators refusing to adopt GenAI and sign and share it if you agree with its contents.
