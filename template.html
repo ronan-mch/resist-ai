@@ -1,7 +1,3 @@
-<link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
-/>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link
@@ -12,28 +8,62 @@
     h1,
     h2,
     h3,
-    h4 {
+    h4,
+    h5 {
         font-family: "IBM Plex Mono", sans-serif;
         font-weight: 500;
     }
     body {
         font-family: "IBM Plex Mono", sans-serif;
         font-weight: 300;
+        display: flex;
+        padding: 10px;
+        background-color: #ccc;
+    }
+    main,
+    nav {
+        border: 3px solid black;
+        padding: 15px;
+        background-color: #fff;
+        overflow: auto;
+    }
+    main {
+        width: 60%;
+    }
+    aside {
+        width: 25%;
+        height: 25vh;
+        position: sticky;
+        top: 0;
+    }
+    nav {
+        width: 75%;
+    }
+    nav a {
+        display: block;
+        margin: 0.5rem 0;
     }
 </style>
 <title>Resist AI!</title>
 
 <body>
-    <header class="container">
-        <h1><code>./resist-ai.sh</code></h1>
-    </header>
+    <aside>
+        <nav>
+            <h4>Contents</h4>
+            <h5>Why?</h5>
+            <a href="#why-energy">Energy</a>
+            <a href="#why-disinfo">Disinformation</a>
+            <a href="#why-workers">Harming workers</a>
+            <h5>How?</h5>
+            <a href="#how-everyone">For everyone</a>
+            <a href="#how-some">For social media users</a>
+            <a href="#how-writers">For online writers</a>
+            <a href="#how-artists">For visual artists</a>
+            <a href="#how-websites">For website owners</a>
+            <a href="#how-educators">For educators</a>
+        </nav>
+    </aside>
     <main class="container">
         <!-- TEXT -->
     </main>
-    <footer class="container">
-        Like this?
-        <a href="https://github.com/ronan-mch/resist-ai">
-            Contribute on GitHub!
-        </a>
-    </footer>
 </body>

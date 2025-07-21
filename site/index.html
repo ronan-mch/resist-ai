@@ -1,7 +1,3 @@
-<link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
-/>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link
@@ -12,33 +8,68 @@
     h1,
     h2,
     h3,
-    h4 {
+    h4,
+    h5 {
         font-family: "IBM Plex Mono", sans-serif;
         font-weight: 500;
     }
     body {
         font-family: "IBM Plex Mono", sans-serif;
         font-weight: 300;
+        display: flex;
+        padding: 10px;
+        background-color: #ccc;
+    }
+    main,
+    nav {
+        border: 3px solid black;
+        padding: 15px;
+        background-color: #fff;
+        overflow: auto;
+    }
+    main {
+        width: 60%;
+    }
+    aside {
+        width: 25%;
+        height: 25vh;
+        position: sticky;
+        top: 0;
+    }
+    nav {
+        width: 75%;
+    }
+    nav a {
+        display: block;
+        margin: 0.5rem 0;
     }
 </style>
 <title>Resist AI!</title>
 
 <body>
-    <header class="container">
-        <h1><code>./resist-ai.sh</code></h1>
-    </header>
+    <aside>
+        <nav>
+            <h4>Contents</h4>
+            <h5>Why?</h5>
+            <a href="#why-energy">Energy</a>
+            <a href="#why-disinfo">Disinformation</a>
+            <a href="#why-workers">Harming workers</a>
+            <h5>How?</h5>
+            <a href="#how-everyone">For everyone</a>
+            <a href="#how-some">For social media users</a>
+            <a href="#how-writers">For online writers</a>
+            <a href="#how-artists">For visual artists</a>
+            <a href="#how-websites">For website owners</a>
+            <a href="#how-educators">For educators</a>
+        </nav>
+    </aside>
     <main class="container">
 <h1>Resist AI - a handbook for concerned citizens</h1>
 
 <p>This website is a citizen's guide to opposing generative AI's harmful effects on our society.</p>
 
-<ul>
-<li><a href="#why">Why?</a></li>
-<li><a href="#how">How?</a></li>
-</ul>
-
 <blockquote>
-  <p>When we talk about generative AI, we mean LLM based text creation models like ChatGPT and Claude, image creation models like DALL-E, Stable Diffusion, etc and video generators like Runway.</p>
+  <p>When we talk about generative AI (GenAI), we mean LLM based text creation models like ChatGPT and Claude, image creation models like DALL-E, Stable Diffusion, etc and video generators like Runway.</p>
 </blockquote>
 
 <p><a name="why"></p>
@@ -49,7 +80,11 @@
 
 <p>Generative AI is an important technology with some valuable use cases, but it is being pushed aggressively by tech companies with no regard for its harmful effects on society. Through boycotting, suing and sabotaging generative AI, we can slow its attack on our society and inspire a more thoughtful conversation about how to use these technologies to benefit rather than harm humanity.</p>
 
+<p><a name="why-energy"></p>
+
 <h3>Energy use</h3>
+
+<p></a></p>
 
 <p>Generative AI requires a huge amount of electricity to train and run models. At a time when the world is facing a massive environmental crisis due to carbon emissions, it is beyond stupid to build more fossil fuel powered data centres. But that is exactly what is happening. Unfortunately, this is only expected to get worse as tech companies rush to push AI into every corner of our lives.</p>
 
@@ -59,7 +94,11 @@
 <li><a href="https://www.energy.gov/articles/doe-releases-new-report-evaluating-increase-electricity-demand-data-centers">DOE Releases New Report Evaluating Increase in Electricity Demand from Data Centers</a></li>
 </ul>
 
+<p><a name="why-disinfo"></p>
+
 <h3>Disinformation, deep fakes</h3>
+
+<p></a></p>
 
 <p>Disinformation is nothing new, but AI turbocharges it:</p>
 
@@ -70,7 +109,11 @@
 <!-- - AI hallucinations more generally - causing harm etc, look for a source --></li>
 </ul>
 
+<p><a name="why-workers"></p>
+
 <h3>Harming workers</h3>
+
+<p></a></p>
 
 <p>AI systems rely on hidden human labour for content moderation and annotation. Content moderation in particular exacts a large toll on its workers, often leaving them traumatised and without access to sufficient psychological support.</p>
 
@@ -86,7 +129,11 @@
 
 <p></a></p>
 
+<p><a name="how-everyone"></p>
+
 <h3>For everyone</h3>
+
+<p></a></p>
 
 <ul>
 <li>Don't believe the hype! AI companies routinely exaggerate the capabilities of their models in order to attract investment and drive growth. LLMs are good at writing text, but that is <a href="https://www.theguardian.com/commentisfree/2025/jun/10/billion-dollar-ai-puzzle-break-down">not a replacement for human intelligence</a>. Moreover, outlandish predictions of future benefits from AI are designed to <a href="https://www.fastcompany.com/91339834/ai-hype-dark-facts">mask the real harm</a> that AI systems are causing now.</li>
@@ -94,7 +141,11 @@
 <li>Digital rights organisation noyb has launched numerous lawsuits against <a href="https://noyb.eu/en/project/artificial-intelligence">AI providers</a>. You can become a member to support their work.</li>
 </ul>
 
+<p><a name="how-some"></p>
+
 <h3>For social media users</h3>
+
+<p></a></p>
 
 <ul>
 <li>Don't boost AI generated content through liking it, sharing it or commenting on it <strong>need guidance on how to recognise AI content</strong></li>
@@ -107,7 +158,11 @@
 </ul></li>
 </ul>
 
+<p><a name="how-writers"></p>
+
 <h3>For online writers</h3>
+
+<p></a></p>
 
 <p>If you write online, AI companies will harvest your writing to build their models. How to resist will depend on what platform you use to publish:</p>
 
@@ -116,12 +171,20 @@
 <li><a href="https://wordpress.com/blog/2024/02/27/more-control-over-the-content-you-share/">Wordpress</a></li>
 </ul>
 
+<p><a name="how-artists"></p>
+
 <h3>For visual artists</h3>
+
+<p></a></p>
 
 <p>If you're a visual artist who publishes online, you can "poison" your images so that they break the AI models that they are used to train.
 The <a href="https://nightshade.cs.uchicago.edu/whatis.html">Nightshade</a> tool will alter your image in a way that is invisible to humans, but will damage any model that uses it.</p>
 
+<p><a name="how-websites"></p>
+
 <h3>For website owners</h3>
+
+<p></a></p>
 
 <p>If you own a website, you can sabotage or block AI crawlers by using CDN (Content Delivery Network) level bot protection:</p>
 
@@ -138,17 +201,15 @@ The <a href="https://nightshade.cs.uchicago.edu/whatis.html">Nightshade</a> tool
 <li><a href="https://zadzmo.org/code/nepenthes/">Nepenthes</a> - a tool for trapping and poisoning bots</li>
 </ul>
 
+<p><a name="how-educators"></p>
+
 <h3>For educators</h3>
+
+<p></a></p>
 
 <ul>
 <li>Read the <a href="https://openletter.earth/an-open-letter-from-educators-who-refuse-the-call-to-adopt-genai-in-education-cb4aee75">open letter</a> from educators refusing to adopt GenAI and sign and share it if you agree with its contents.</li>
 </ul>
         <!-- TEXT -->
     </main>
-    <footer class="container">
-        Like this?
-        <a href="https://github.com/ronan-mch/resist-ai">
-            Contribute on GitHub!
-        </a>
-    </footer>
 </body>
