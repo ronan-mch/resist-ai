@@ -29,7 +29,6 @@ Disinformation is nothing new, but AI turbocharges it:
 - AI generated deep fake videos are used for [harassment](https://www.esafety.gov.au/newsroom/blogs/deepfake-damage-in-schools-how-ai-generated-abuse-is-disrupting-students-families-and-school-communities), or [political manipulation](https://www.npr.org/2024/12/21/nx-s1-5220301/deepfakes-memes-artificial-intelligence-elections).
 - AI generated images [flood social media](https://theconversation.com/what-is-ai-slop-why-you-are-seeing-more-fake-photos-and-videos-in-your-social-media-feeds-255538), drowning out human connections.
 - AI is being used to [generate bogus research articles](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003152#sec008) hampering the scientific process.
-- Use of LLMs for personal therapy has been shown to be [fundamentally unsafe](https://futurism.com/stanford-therapist-chatbots-encouraging-delusions) and has been connected with [multiple cases of  psychotic breakdown]( https://osf.io/preprints/psyarxiv/cmy7n_v5)
 
 <a name="why-workers">
 ### Harming workers
@@ -40,6 +39,12 @@ AI systems rely on hidden human labour for content moderation and annotation. Co
 - [OpenAI Used Kenyan Workers on Less Than $2 Per Hour to Make ChatGPT Less Toxic](https://time.com/6247678/openai-chatgpt-kenya-workers/)
 - [The human cost of our AI driven future](https://www.noemamag.com/the-human-cost-of-our-ai-driven-future/)
   - [Who trains the data for European artificial intelligence?](https://hal.science/hal-04662589/document)
+
+<a name="why-mental-health">
+### Mental health
+</a>
+
+LLMs do not have adequate safeguards for users at risk of [mental health issues](https://futurism.com/stanford-therapist-chatbots-encouraging-delusions) and has been connected with [multiple cases of  psychotic breakdown]( https://osf.io/preprints/psyarxiv/cmy7n_v5)
 
 <a name="how">
 ## How to resist AI?

@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 markdown text.md >tmp.html
-awk '/<main class="container">/ {
+awk '/<div id="content">/ {
   print
   while ((getline line < "tmp.html") > 0) print line
     close("tmp.html")
