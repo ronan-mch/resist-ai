@@ -2,7 +2,7 @@
 
 This website is a citizen's guide to opposing generative AI's harmful effects on our society.
 
-> When we talk about generative AI (GenAI), we mean LLM based text creation models like ChatGPT and Claude, image creation models like DALL-E, Stable Diffusion, etc and video generators like Runway.
+Note that when we talk about generative AI (GenAI), we mean LLM based text creation models like ChatGPT and Claude, image creation models like DALL-E, Stable Diffusion, etc and video generators like Runway.
 
 <a name="why">
 ## Why resist AI?
@@ -38,13 +38,18 @@ AI systems rely on hidden human labour for content moderation and annotation. Co
 
 - [OpenAI Used Kenyan Workers on Less Than $2 Per Hour to Make ChatGPT Less Toxic](https://time.com/6247678/openai-chatgpt-kenya-workers/)
 - [The human cost of our AI driven future](https://www.noemamag.com/the-human-cost-of-our-ai-driven-future/)
-  - [Who trains the data for European artificial intelligence?](https://hal.science/hal-04662589/document)
+- [Who trains the data for European artificial intelligence?](https://hal.science/hal-04662589/document)
 
 <a name="why-mental-health">
-### Mental health
+### Harming users
 </a>
 
-LLMs do not have adequate safeguards for users at risk of [mental health issues](https://futurism.com/stanford-therapist-chatbots-encouraging-delusions) and has been connected with [multiple cases of  psychotic breakdown]( https://osf.io/preprints/psyarxiv/cmy7n_v5)
+LLMs are increasingly being connected with severe mental health crises in their users.
+
+- They do not to have [adequate safeguards](https://futurism.com/stanford-therapist-chatbots-encouraging-delusions) for users at risk of mental health issues.
+- They have been connected with [multiple cases of  psychotic breakdown]( https://osf.io/preprints/psyarxiv/cmy7n_v5).
+- A lawsuit against OpenAI alleges that ChatGPT encouraged a [young man to commit suicide](https://www.bbc.com/news/articles/cgerwp7rdlvo).
+- Another story describes another's [psychotic breakdown and violent death](https://futurism.com/man-killed-police-chatgpt) after heavy use of ChatGPT.
 
 <a name="how">
 ## How to resist AI?
@@ -57,6 +62,7 @@ LLMs do not have adequate safeguards for users at risk of [mental health issues]
 - Don't believe the hype! AI companies routinely exaggerate the capabilities of their models in order to attract investment and drive growth. LLMs are good at writing text, but that is [not a replacement for human intelligence](https://www.theguardian.com/commentisfree/2025/jun/10/billion-dollar-ai-puzzle-break-down). Moreover, outlandish predictions of future benefits from AI are designed to [mask the real harm](https://www.fastcompany.com/91339834/ai-hype-dark-facts) that AI systems are causing now.
 - Oppose data center construction: GenAI companies are building gigantic data centers across the world to power their systems. These consume massive amounts of electricity and water and provide little benefit to the communities affected. In countries such as [Chile](https://www.disconnect.blog/p/how-to-stop-a-data-center) and the [USA](https://www.datacenterwatch.org/report), activists have succeeded in blocking these developments through public information and protest. Support campaigns against data centers in your area.
 - Digital rights organisation noyb has launched numerous lawsuits against [AI providers](https://noyb.eu/en/project/artificial-intelligence). You can become a member to support their work.
+- Tell your friends! The more people call out this nonsense, the fast the bubble deflates.
 
 <a name="how-some">
 ### For social media users
@@ -67,7 +73,7 @@ LLMs do not have adequate safeguards for users at risk of [mental health issues]
 
 - If you can, move away from platforms that push GenAI on their users:
   - WhatsApp can be replaced with [Signal](https://signal.org/) a more ethical and privacy aware alternative.
-  - Twitter can be replaced with [BlueSky](https://bsky.app/) or [Mastodon](https://mastodon.social/).
+  - X/Twitter can be replaced with [BlueSky](https://bsky.app/) or [Mastodon](https://mastodon.social/).
 
 <a name="how-writers">
 ### For online writers
@@ -95,16 +101,7 @@ If you own a website, you can sabotage or block AI crawlers by using CDN (Conten
 - Akamai provides a product to [manage bots](https://www.akamai.com/products/bot-manager#accordion-7d993699c3-item-2658329830), including AI bots.
 - [Squarespace](https://support.squarespace.com/hc/en-us/articles/360022347072-Request-that-AI-models-exclude-your-site) provide a guide for requesting bots to exclude your website.
 
-More technically confident users can setup self-hosted solutions such as:
-
-- [Anubis](https://anubis.techaro.lol/) - a tool for blocking bots.
-- [Nepenthes](https://zadzmo.org/code/nepenthes/) - a tool for trapping and poisoning bots.
-
-<a name="how-educators">
-### For educators
-</a>
-
-- Read the [open letter](https://openletter.earth/an-open-letter-from-educators-who-refuse-the-call-to-adopt-genai-in-education-cb4aee75) from educators refusing to adopt GenAI and sign and share it if you agree with its contents.
+More technically confident users can find potential solutions on [this list of anti-AI tools](https://codeberg.org/wimvanderbauwhede/low-carbon-computing/src/branch/master/anti-AI-tools.md).
 
 <a name="how-workers">
 ### For workers
@@ -114,3 +111,9 @@ Many companies are mandating use of GenAI by employees in a misguided attempts t
 - A systematic study of software developers' use of AI tools found that they actually [decreased productivity](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/).
 - Another study found that use of chatbots failing to have any impact on earnings across [7,000 workplaces in Denmark](https://www.nber.org/papers/w33777).
 - AI "agents" [fail on multi-step challenges](https://the-decoder.com/salesforces-crm-benchmark-finds-ai-agents-struggle-in-real-world-business-scenarios/) making them unsuitable for most real world applications.
+
+<a name="how-educators">
+### For educators
+</a>
+
+- Read the [open letter](https://openletter.earth/an-open-letter-from-educators-who-refuse-the-call-to-adopt-genai-in-education-cb4aee75) from educators refusing to adopt GenAI and sign and share it if you agree with its contents.
