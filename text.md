@@ -8,7 +8,7 @@ Note that when we talk about generative AI (GenAI), we mean LLM based text creat
 ## Why resist AI?
 </a>
 
-Generative AI is an interesting technology with some valuable use cases, but it is being pushed aggressively by tech companies with no regard for its harmful effects on society. Through boycotting, suing and sabotaging generative AI, we can slow its attack on our society and inspire a more thoughtful conversation about how to use these technologies to benefit rather than harm humanity.
+Generative AI is an interesting technology with some use cases, but it is being pushed aggressively by tech companies with no regard for its harmful effects on society. Through boycotting, suing and sabotaging generative AI, we can slow its attack on our society and inspire a more thoughtful conversation about how to use these technologies to benefit rather than harm humanity.
 
 <a name="why-energy">
 ### Energy use
